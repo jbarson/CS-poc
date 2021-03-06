@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1542293787938-c9e299b880cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3750&q=80);
+  background-size: 100%;
+  background-position: cover;
+  font-family: Poppins;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 25%;
+  font-size: 4em;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  transition: opacity 1s;
+}
+.going {
+  opacity: 0;
+}
+.gone {
+  display: none;
+}
